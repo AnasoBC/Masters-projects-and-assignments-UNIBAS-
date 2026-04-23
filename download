@@ -1,0 +1,33 @@
+# Data — not committed (large, licensed by Freddie Mac)
+data/*.csv
+data/*.txt
+data/*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+.env
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts / outputs (regenerate from code)
+*.pkl
+*.joblib
